@@ -18,5 +18,7 @@ public class Main {
         months.put("November", 30);
         months.put("Dezember", 31);
 
+        String calendarHead = "Mo Di Mi Do Fr Sa So";
+
     }
 }
