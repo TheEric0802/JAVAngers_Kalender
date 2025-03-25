@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Main {
     public static void main(String[] args) {
 
-        HashMap<String, Integer> months = new HashMap<>();
+        LinkedHashMap<String, Integer> months = new LinkedHashMap<>();
 
         months.put("Januar", 31);
         months.put("Februar", 28);
