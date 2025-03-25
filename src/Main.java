@@ -20,5 +20,8 @@ public class Main {
 
         String calendarHead = "Mo Di Mi Do Fr Sa So";
 
+        for (String month : months.keySet()) {
+        }
+
     }
 }
