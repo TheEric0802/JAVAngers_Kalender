@@ -43,13 +43,15 @@ public class Main {
                     System.out.print(" ");
                 }
 
-                System.out.print(i + " ");
+                System.out.print(i);
 
                 if (i == months.get(month)) {
                     start = count % 7;
                     System.out.println();
                 } else if (count % 7 == 0) {
                     System.out.println();
+                } else {
+                    System.out.print(" ");
                 }
 
             }
